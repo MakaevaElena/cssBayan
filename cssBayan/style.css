@@ -1,4 +1,56 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Roboto', Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 138%;
+  background-color: beige;
+}
+
 .container {
-  max-width: fit-content;
+  max-width: 600px;
   margin: 0 auto;
+}
+
+.bayan {
+  border-top: 1px solid grey;
+}
+
+.bayan__input {
+  display: none;
+}
+
+.bayan__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bayan__content {
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.bayan__img {
+  height: 300px;
+  width: 50%;
+  margin: 0 auto;
+  /* background-image: url('./img/1.gif'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: contain; */
+}
+
+.bayan__img img {
+  width: 100%;
+}
+
+.bayan__input:checked + .bayan__label + .bayan__content {
+  height: auto;
+  padding: 10px 0;
 }
