@@ -40,11 +40,6 @@ body {
   transition: 0.5s;
 }
 
-/* .bayan__content {
-  display: none;
-  transition: 0.5s;
-} */
-
 .bayan__img {
   width: 60%;
   margin: 0 auto;
@@ -59,15 +54,14 @@ body {
   height: 5rem;
 }
 
-/* .bayan__input:checked + .bayan__label + .bayan__content {
-  height: auto;
-  padding: 1rem 0;
-} */
-
 .bayan__input:checked + .bayan__label .bayan__content {
   height: auto;
   padding: 1rem 0;
   cursor: pointer;
+}
+
+.bayan__input:checked + .bayan__label .bayan__top h2 {
+  color: black;
 }
 
 .bayan__input:checked + .bayan__label .bayan__top .btn img {
@@ -78,6 +72,10 @@ body {
   height: auto;
   padding: 1rem 0;
   cursor: pointer;
+}
+
+.container:hover .bayan__input + .bayan__label .bayan__top h2 {
+  color: black;
 }
 
 .bayan__input:hover + .bayan__label .bayan__top .btn img {
