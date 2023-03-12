@@ -74,6 +74,14 @@ body {
   cursor: pointer;
 }
 
+.bayan__input:active + .bayan__label .bayan__content .bayan__img img {
+  filter: brightness(70%);
+}
+
+.bayan__input:active + .bayan__label .bayan__top h2 {
+  color: #0259d9 !important;
+}
+
 .container:hover .bayan__input + .bayan__label .bayan__top h2 {
   color: black;
 }
