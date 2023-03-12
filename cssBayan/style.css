@@ -41,13 +41,13 @@ body {
 }
 
 .bayan__img {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
 .bayan__img img {
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
 }
 
 .btn img {
@@ -55,9 +55,10 @@ body {
 }
 
 .bayan__input:checked + .bayan__label .bayan__content {
-  height: auto;
-  padding: 1rem 0;
+  height: 220px;
+  padding: 3rem 0;
   cursor: pointer;
+  transform: scale(1.3);
 }
 
 .bayan__input:checked + .bayan__label .bayan__top h2 {
@@ -69,9 +70,10 @@ body {
 }
 
 .bayan__input:hover + .bayan__label .bayan__content {
-  height: auto;
-  padding: 1rem 0;
+  height: 220px;
+  padding: 3rem 0;
   cursor: pointer;
+  transform: scale(1.3);
 }
 
 .bayan__input:active + .bayan__label .bayan__content .bayan__img img {
