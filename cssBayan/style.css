@@ -46,8 +46,8 @@ body {
 }
 
 .bayan__img img {
-  width: 300px;
-  height: 200px;
+  width: 30rem;
+  height: 20rem;
 }
 
 .btn img {
@@ -55,7 +55,7 @@ body {
 }
 
 .bayan__input:checked + .bayan__label .bayan__content {
-  height: 220px;
+  height: 22rem;
   padding: 3rem 0;
   cursor: pointer;
   transform: scale(1.3);
@@ -70,7 +70,7 @@ body {
 }
 
 .bayan__input:hover + .bayan__label .bayan__content {
-  height: 220px;
+  height: 22rem;
   padding: 3rem 0;
   cursor: pointer;
   transform: scale(1.3);
